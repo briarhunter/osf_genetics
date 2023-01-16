@@ -1,0 +1,19 @@
+
+VCFtools - 0.1.17
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf ../../12-results/third_filters_m3_p80_x0_S3.singleton.unlinked_0.5.imputed_k7.vcf
+	--weir-fst-pop ../maria_slough_individuals_list_minus_three_ind.tsv
+	--weir-fst-pop ../toronto_zoo_list.txt
+	--keep ../maria_slough_individuals_list_minus_three_ind.tsv
+	--keep ../toronto_zoo_list.txt
+	--out fst_maria_slough_vs_toronto_zoo
+
+Keeping individuals in 'keep' list
+After filtering, kept 52 out of 322 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.024478
+Weir and Cockerham weighted Fst estimate: 0.04066
+After filtering, kept 22229 out of a possible 22229 Sites
+Run Time = 6.00 seconds
